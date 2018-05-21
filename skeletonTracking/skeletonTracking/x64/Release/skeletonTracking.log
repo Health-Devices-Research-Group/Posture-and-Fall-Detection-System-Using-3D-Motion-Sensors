@@ -1,0 +1,18 @@
+﻿  main.cpp
+main.cpp(11): warning C4005: 'CRUL_STATICLIB': macro redefinition
+  main.cpp(11): note: command-line arguments:  see previous definition of 'CRUL_STATICLIB'
+main.cpp(217): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(218): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(234): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(235): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(236): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(237): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(243): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.cpp(244): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+main.obj : error LNK2001: unresolved external symbol __imp_curl_easy_perform
+main.obj : error LNK2001: unresolved external symbol __imp_curl_global_init
+main.obj : error LNK2001: unresolved external symbol __imp_curl_global_cleanup
+main.obj : error LNK2001: unresolved external symbol __imp_curl_easy_init
+main.obj : error LNK2001: unresolved external symbol __imp_curl_easy_cleanup
+main.obj : error LNK2001: unresolved external symbol __imp_curl_easy_setopt
+C:\Users\Hamza Qassoud\documents\visual studio 2015\Projects\skeletonTracking\x64\Release\skeletonTracking.exe : fatal error LNK1120: 6 unresolved externals

@@ -1,0 +1,14 @@
+﻿  main.cpp
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(240): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(241): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(257): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(258): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(259): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(260): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(266): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(267): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  server.cpp
+  skeletonTracking.vcxproj -> C:\Users\Hamza Qassoud\documents\visual studio 2015\Projects\skeletonTracking\x64\Debug\skeletonTracking.exe
+  skeletonTracking.vcxproj -> C:\Users\Hamza Qassoud\documents\visual studio 2015\Projects\skeletonTracking\x64\Debug\skeletonTracking.pdb (Partial PDB)

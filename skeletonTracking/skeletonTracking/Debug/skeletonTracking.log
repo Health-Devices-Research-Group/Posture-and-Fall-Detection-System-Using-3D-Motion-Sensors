@@ -1,0 +1,15 @@
+﻿  main.cpp
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(11): warning C4005: 'CURL_STATICLIB': macro redefinition
+  c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(11): note: command-line arguments:  see previous definition of 'CURL_STATICLIB'
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(216): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(217): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(233): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(234): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(235): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(236): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(242): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\hamza qassoud\documents\visual studio 2015\projects\skeletontracking\skeletontracking\main.cpp(243): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+main.obj : error LNK2019: unresolved external symbol _GetDefaultKinectSensor@4 referenced in function _main
+C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\x64\\Kinect20.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+C:\Users\Hamza Qassoud\documents\visual studio 2015\Projects\skeletonTracking\Debug\skeletonTracking.exe : fatal error LNK1120: 1 unresolved externals
