@@ -3,7 +3,6 @@ import numpy as np
 import os
 from time import sleep
 from common import common as cm
-import HttpThread
 import queue
 import threading
 import time
@@ -13,8 +12,6 @@ UBUNTU = True  # False
 CLASSIFICATION_OUTPUT_TO_STR = {0: "STANDING", 1: "SITTING", 2: "LYING DOWN", 3: "BENDING"}
 fallNum = 0
 
-posture_send_skip = 0
-
 lowest_y_point = 1000
 
 # Threshold of how many meters from the lowest point in the room is acceptable to approve the person is lying down on the ground
@@ -23,25 +20,6 @@ M_FROM_FLOOR = 0.25
 objects_per_room = {}   
 
 comm = cm()
-
-# Init HTTP Thread
-QDataDict = queue.Queue(maxsize=0)
-stopHttpThread = threading.Event()
-httpThread = HttpThread.HttpThread(QDataDict, stopHttpThread)
-httpThread.start()
-
-def sendHTTPData(posture, fall):
-    global posture_send_skip
-    if(posture_send_skip == 0 or fall == True):
-        dictData = {}
-        dictData["posture"] = posture
-        dictData["timestamp"] = str(int(time.time()))
-        dictData["fall"] = fall
-        QDataDict.put(dictData)
-    posture_send_skip += 1
-    if(posture_send_skip == 5):
-        posture_send_skip = 0
-    return
 
 def importFloorData(roomNumber):
     filepath = "data/floorplans/" + str(roomNumber) + ".txt"
@@ -99,7 +77,7 @@ if __name__ == "__main__":
     importFloorData(roomNumber)
 
     #file = open('data/real_time_joints_data.txt', 'w+')
-    file = open('C:\\workspace\\FallDetection\\src\\data\\real_time_joints_data.txt', 'w+')
+    file = open('real_time_joints_data.txt', 'w+')
     index = 0
 
     # Initialization step
@@ -122,7 +100,7 @@ if __name__ == "__main__":
 
     # End of initialization step
     #file = open('data/real_time_joints_data.txt', 'w+')
-    file = open('C:\\workspace\\FallDetection\\src\\data\\real_time_joints_data.txt', 'w+')
+    file = open('real_time_joints_data.txt', 'w+')
     index = 0
 
     # Start system
@@ -168,7 +146,6 @@ if __name__ == "__main__":
                             root.update()
                         if (posture == "LYING DOWN"):  # Is the person LYING DOWN on the floor?
                             print('LYING DOWN')
-                            sendHTTPData("LYING DOWN", False)
                             if (isLayingOnTheFloor(float(inp[7]), float(inp[8])) == False):
                                 if (allowed_not_on_floor == 0):
                                     print("PERSON IS NOT LAYING ON THE FLOOR! No fall..!")
@@ -184,10 +161,6 @@ if __name__ == "__main__":
                             else:
                                 allowed -= 1
                     if (fall):
-                        # Send Posture to be LYING DOWN and Fall to be True
-                        print('Sending data ...!')
-                        sendHTTPData("LYING DOWN", True)
-
                         if (not UBUNTU):
                             labelText.set("FALLEN!")
                             root.update()
@@ -209,17 +182,11 @@ if __name__ == "__main__":
                                 if (not UBUNTU):
                                     labelText.set(posture)
                                     root.update()
-                                file = open('C:\\workspace\\FallDetection\\src\\data\\real_time_joints_data.txt', 'w+')
+                                file = open('real_time_joints_data.txt', 'w+')
                                 index = 0
-                else:
-                    # Send posture to be LYING DOWN and fall status to be False
-                    sendHTTPData("LYING DOWN", False)
-            else:
-                # Send posture result and fall status to be False
-                sendHTTPData(posture, False)
         if (index > 2500):
             # index = 300
-            file = open('C:\\workspace\\FallDetection\\src\\data\\real_time_joints_data.txt', 'w+')
+            file = open('real_time_joints_data.txt', 'w+')
             index = 0
 
 
