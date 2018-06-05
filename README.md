@@ -7,6 +7,7 @@ This work presents a supervised learning approach for training a posture detecti
 3- Run main.py with Python3.  
   
 **EXPLANATION OF TRAINING/TESTING DATA**  
+The figure below illustrates six of the seven training/testing features for all three postures (standing, sitting, and lying down), named as follows: Left hip angle (1), right hip angle (2), left knee angle (3), right knee angle (4), chest angle(5), and chest-knee angle (6).  The seventh feature is the height of the person computed by taking the Y-position of the head and subtracting the lower Y-position value of the right and left foot from it.
 ![Alt text](images/kinectSkeletonFeatures.png?raw=true "Visualization of six of the seven features that will be used for posture classification in the Kinect Skeleton.")
 
   
