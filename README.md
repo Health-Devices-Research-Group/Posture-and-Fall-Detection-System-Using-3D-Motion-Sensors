@@ -17,7 +17,7 @@ The figure below illustrates six of the seven training/testing features for all 
 Six people of different heights and shapes were asked to participate in the data collection phase, which consisted of four one-minute rounds, where in each round, the subject was allowed to either move or stay in a fixed posture: that is standing for one minutes, sitting for one minutes, and lying down for one minutes. The Kinect V2 sensor has a frame rate of 30 frames per second, thus 1800 frames for each one-minute round per subject per posture were collected which led to about 9000 training frames per posture in total.
   
 **LINK TO PAPER**  
-http://carg.site.uottawa.ca/  
+The paper can be read from the Paper_Posture-and-Fall-Detection-System-Using-3D-Motion-Sensors.pdf file.
   
 **LINKS TO OUR LABS**  
 - http://health-devices.eecs.uottawa.ca/  
