@@ -6,7 +6,7 @@ Please watch the *Posture_fall_detection_demo.mp4* video to get a sense of the p
 
 **RUN INSTRUCTIONS: (WINDOWS)**  
 1- Download the Kinect SDK 2.0 as per the official website https://www.microsoft.com/en-ca/download/details.aspx?id=44561  
-2- Download Visual studio 2015 and open the solution skeletonTracking/skeletonTracking.sln then run the code.  
+2- Download Visual studio 2015 and open the solution *skeletonTracking/skeletonTracking.sln* then run the code.  
 3- Run main.py with Python3.  
   
 **EXPLANATION OF TRAINING/TESTING DATA**  
