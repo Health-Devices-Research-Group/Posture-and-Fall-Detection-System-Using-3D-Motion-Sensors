@@ -6,6 +6,9 @@ This work presents a supervised learning approach for training a posture detecti
 2- Download Visual studio 2015 and open the solution skeletonTracking/skeletonTracking.sln then run the code.  
 3- Run main.py with Python3.  
   
+**EXPLANATION OF TRAINING/TESTING DATA**  
+
+  
 **LINK TO PAPER**  
 http://carg.site.uottawa.ca/  
   
