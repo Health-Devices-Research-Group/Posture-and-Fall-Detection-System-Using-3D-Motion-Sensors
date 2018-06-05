@@ -16,7 +16,9 @@ Six people of different heights and shapes were asked to participate in the data
 **LINK TO PAPER**  
 http://carg.site.uottawa.ca/  
   
-
 **LINK TO OUR LABS**  
 - http://health-devices.eecs.uottawa.ca/  
 - http://carg.site.uottawa.ca/  
+
+**LINK TO SIMILAR WORKS**  
+http://carg.site.uottawa.ca/ 
