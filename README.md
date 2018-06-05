@@ -23,7 +23,7 @@ http://carg.site.uottawa.ca/
 - https://pdfs.semanticscholar.org/b8ac/6f5f1a3362f83aef7c75b0b75ab09e17a3c1.pdf  
 - http://journals.sagepub.com/doi/full/10.5772/62163  
 - https://ieeexplore.ieee.org/document/4373773/?reload=true  
-- download.atlantis-press.com/php/download_paper.php?id=25866362  
+- http://download.atlantis-press.com/php/download_paper.php?id=25866362  
 
 **LINKS TO SIMILAR WORKS**  
 - http://carg.site.uottawa.ca/  
