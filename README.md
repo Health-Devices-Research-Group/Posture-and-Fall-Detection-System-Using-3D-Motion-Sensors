@@ -7,7 +7,7 @@ This work presents a supervised learning approach for training a posture detecti
 3- Run main.py with Python3.  
   
 **EXPLANATION OF TRAINING/TESTING DATA**  
-![alt text](images/kinectSkeletonFeatures.png "Visualization of six of the seven features that will be used for posture classification in the Kinect Skeleton.")
+![Alt text](images/kinectSkeletonFeatures.png?raw=true "Visualization of six of the seven features that will be used for posture classification in the Kinect Skeleton.")
 
   
 **LINK TO PAPER**  
