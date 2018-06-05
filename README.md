@@ -15,6 +15,6 @@ The figure below illustrates six of the seven training/testing features for all 
 http://carg.site.uottawa.ca/  
   
 
-**LINK TO OUR LABS**
+**LINK TO OUR LABS**  
 - http://health-devices.eecs.uottawa.ca/  
 - http://carg.site.uottawa.ca/  
