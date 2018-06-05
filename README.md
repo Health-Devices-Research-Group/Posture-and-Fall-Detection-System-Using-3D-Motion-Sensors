@@ -4,4 +4,6 @@ This work presents a supervised learning approach for training a posture detecti
 **RUN INSTRUCTIONS: (WINDOWS)**  
 1- Download the Kinect SDK 2.0 as per the official website https://www.microsoft.com/en-ca/download/details.aspx?id=44561  
 2- Download Visual studio 2015 and open the solution skeletonTracking/skeletonTracking.sln then run the code.  
-3- Run main.py with Python3.
+3- Run main.py with Python3.  
+  
+Link to our Labs http://health-devices.eecs.uottawa.ca/ and http://carg.site.uottawa.ca/
